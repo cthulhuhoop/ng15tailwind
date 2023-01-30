@@ -9,10 +9,10 @@ export class DataService {
 
   getUsers(): IUser[] {
     return [
-      { id: 1, name: 'fred' },
-      { id: 2, name: 'barney' },
-      { id: 3, name: 'wilma' },
-      { id: 4, name: 'pebbles' },
+      { id: 1, name: 'fred', email: 'fred@bedrock.com', active: true, avatar: '' },
+      { id: 2, name: 'barney', email: 'barney@bedrock.com', active: true, avatar: ''  },
+      { id: 3, name: 'wilma', email: 'wilma@bedrock.com', active: true, avatar: ''  },
+      { id: 4, name: 'pebbles' , email: 'pebbles@bedrock.com', active: true, avatar: '' },
     ];
   }
 }
